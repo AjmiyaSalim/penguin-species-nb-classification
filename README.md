@@ -1,10 +1,10 @@
-# 🐧 Penguin Species Classification using Naive Bayes (GaussianNB)
+#  Penguin Species Classification using Naive Bayes (GaussianNB)
 
 This is a beginner-friendly machine learning project that uses the **Naive Bayes classifier** (specifically, the Gaussian variant) to classify penguin species based on physical measurements and island location. It uses the popular **Palmer Penguins Dataset** as a simpler and more interpretable alternative to the Iris dataset.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used in this project is referenced from the following source:
 
@@ -15,7 +15,7 @@ The dataset used in this project is referenced from the following source:
 
 ---
 
-## 🚀 Project Highlights
+##  Project Highlights
 
 - Predict penguin species: **Adelie** and **Gentoo**
 - Used the **Gaussian Naive Bayes** model
@@ -31,7 +31,7 @@ The dataset used in this project is referenced from the following source:
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 1. Open the notebook in **Google Colab** or any Jupyter environment  
 2. Use `seaborn` or `pandas` to load the Palmer Penguins dataset  
@@ -39,11 +39,11 @@ The dataset used in this project is referenced from the following source:
    - Clean and preprocess the data
    - Train and evaluate the Naive Bayes model
 
-> ✅ **Tip:** You can visualize the data distribution using pairplots or correlation heatmaps to better understand feature separability.
+>  **Tip:** You can visualize the data distribution using pairplots or correlation heatmaps to better understand feature separability.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 The **Gaussian Naive Bayes model** worked effectively for this multiclass classification problem. Despite its simplicity and assumptions of feature independence, the model achieved solid accuracy and balanced precision/recall across classes. This shows that Naive Bayes can be a strong baseline for clean, structured datasets like Palmer Penguins.
 
